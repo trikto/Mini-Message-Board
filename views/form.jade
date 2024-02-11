@@ -1,0 +1,18 @@
+html
+  head
+    title= title
+  body
+    h1= title
+
+    form(action="/new", method="post")
+      label(for="name") Username:
+      input(type="text", name="name")
+      br
+      br
+
+      label(for="message") Message:
+      input(type="text", name="message")
+      br
+      br
+
+      input(type="submit", value="Submit")

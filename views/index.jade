@@ -1,0 +1,9 @@
+html
+  head 
+    title= title 
+  body 
+    h1= title 
+    each message in messages
+      p= message.text 
+      p= message.user 
+      p= message.added
